@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>마이샘 — PT 수업 관리 앱</title>
+<meta name="description" content="마이샘은 트레이너와 회원이 수업 일정·출석·운동기록을 함께 관리하는 앱입니다.">
+<style>
+  :root { --ink:#1a1d1f; --ink2:#5c6570; --ink3:#8b949e; --line:#e5e8eb; --acc:#16A34A; --accbg:#E7F6EC; }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+         color:var(--ink); line-height:1.7; background:#fff; }
+  .wrap { max-width:720px; margin:0 auto; padding:56px 20px 80px; }
+  header { text-align:center; margin-bottom:48px; }
+  .logo { width:72px; height:72px; border-radius:18px; background:var(--accbg); color:var(--acc);
+          display:flex; align-items:center; justify-content:center; font-size:30px; font-weight:800; margin:0 auto 18px; }
+  h1 { font-size:28px; margin:0 0 8px; letter-spacing:-.02em; }
+  .tag { color:var(--ink2); font-size:15px; margin:0; }
+  .cards { display:grid; gap:12px; margin:36px 0; }
+  a.card { display:flex; align-items:center; gap:12px; padding:16px 18px; border:1px solid var(--line);
+           border-radius:14px; text-decoration:none; color:var(--ink); transition:.15s; }
+  a.card:hover { border-color:var(--acc); background:var(--accbg); }
+  a.card strong { font-size:15px; }
+  a.card span { color:var(--ink3); font-size:13px; display:block; margin-top:2px; }
+  .arrow { margin-left:auto; color:var(--ink3); }
+  h2 { font-size:17px; margin:36px 0 12px; }
+  ul { padding-left:20px; color:var(--ink2); font-size:15px; }
+  li { margin-bottom:6px; }
+  footer { margin-top:56px; padding-top:24px; border-top:1px solid var(--line);
+           color:var(--ink3); font-size:13px; text-align:center; }
+  footer a { color:var(--ink2); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="logo">마</div>
+    <h1>마이샘</h1>
+    <p class="tag">트레이너와 회원이 함께 쓰는 수업 관리 앱</p>
+  </header>
+
+  <h2>이런 기능이 있어요</h2>
+  <ul>
+    <li>수업 일정 관리 — 고정 시간표, 주간 시간표, 일정 변경 신청·승인</li>
+    <li>출석과 회차 관리 — 모든 회차 변동을 양쪽이 확인할 수 있는 내역으로 기록</li>
+    <li>운동일지 — 수업별 운동 부위·내용과 선생님 코멘트</li>
+    <li>인앱 채팅 — 기존 메신저와 분리된 회원 전용 소통 공간</li>
+    <li>수업 예고 — 다음 수업의 워밍업과 운동 계획을 미리 안내</li>
+    <li>수업 알림 — 전날 저녁과 수업 1시간 전 리마인더</li>
+  </ul>
+
+  <div class="cards">
+    <a class="card" href="./terms.html">
+      <div><strong>이용약관</strong><span>서비스 이용 조건과 절차</span></div>
+      <span class="arrow">›</span>
+    </a>
+    <a class="card" href="./privacy.html">
+      <div><strong>개인정보처리방침</strong><span>수집 항목·목적·보유기간</span></div>
+      <span class="arrow">›</span>
+    </a>
+    <a class="card" href="./delete-account.html">
+      <div><strong>계정 · 데이터 삭제 안내</strong><span>삭제 방법과 삭제되는 항목</span></div>
+      <span class="arrow">›</span>
+    </a>
+  </div>
+
+  <h2>문의</h2>
+  <ul>
+    <li>이메일: <a href="mailto:mysam.support@gmail.com">mysam.support@gmail.com</a></li>
+    <li>앱 내 [설정 &gt; 고객센터 &gt; 문의하기]에서도 보낼 수 있습니다</li>
+  </ul>
+
+  <footer>© 2026 마이샘</footer>
+</div>
+</body>
+</html>
